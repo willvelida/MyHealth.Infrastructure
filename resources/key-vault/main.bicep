@@ -38,7 +38,7 @@ resource myhealthkv 'Microsoft.KeyVault/vaults@2021-06-01-preview' = {
     enablePurgeProtection: true
     enabledForTemplateDeployment: true
     enabledForDeployment: true
-    createMode: 'recover'
+    createMode: 'default'
     softDeleteRetentionInDays: 7
     tenantId: keyVaultTenantId
     sku: {
