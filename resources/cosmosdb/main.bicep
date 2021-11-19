@@ -16,7 +16,6 @@ resource myhealthcosmosaccount 'Microsoft.DocumentDB/databaseAccounts@2021-07-01
   }
   properties: {
     enableFreeTier: true
-    enableAnalyticalStorage: true
     backupPolicy: {
       type: 'Continuous'
     }
