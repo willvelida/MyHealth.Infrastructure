@@ -1,0 +1,30 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+      "serviceBusName": {
+        "value": "myhealthservicebus"
+      },
+      "serviceBusLocation": {
+        "value": "australiaeast"
+      },
+      "activityQueueName": {
+          "value": "activityqueue"
+      },
+      "sleepQueueName": {
+          "value": "sleepqueue"
+      },
+      "bodyQueueName": {
+          "value": "bodyqueue"
+      },
+      "nutritionQueueName": {
+          "value": "nutritionqueue"
+      },
+      "exceptionQueueName": {
+          "value": "exceptionqueue"
+      },
+      "maxDeliveryCount": {
+          "value": 3
+      }
+    }
+  }
